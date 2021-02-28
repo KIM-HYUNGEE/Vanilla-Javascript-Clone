@@ -34,7 +34,7 @@ function geoSuccessHandler(position) {
 }
 
 function geoErrorHandler() {
-    alert("위치정보에 접근할 수 없습니다.");
+    console.log("위치정보에 접근할 수 없습니다.");
 }
 
 function askForCoords() {
