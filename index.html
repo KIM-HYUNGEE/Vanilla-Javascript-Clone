@@ -4,30 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Kim Hyun Gee">
     <title>Chrome Momonton</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="js-clock">
-        <h1 class="js-title"></h1>
-    </div>
-    <form class="js-form form">
-        <input type="text" placeholder="What is your name?">
-    </form>
-    <h4 class="js-greeting greeting"></h4>
 
-    <form class="js-todo-form">
-        <input type="text" placeholder="Write to do">
-    </form>
-    <ul class="js-todo-list">
+    <section class="center">
+        <div class="js-clock">
+            <h1 class="js-title"></h1>
+        </div>
+        <form class="js-form form">
+            <input type="text" placeholder="What is your name?">
+        </form>
+        <h4 class="js-greeting greeting"></h4>
 
-    </ul>
+        <form class="js-todo-form">
+            <input type="text" placeholder="Write to do">
+        </form>
+        <ul class="js-todo-list"></ul>
+    </section>
+
+    <span class="js-location"></span>
     <span class="js-weather"></span>
     
     <script src="js/clock.js"></script>
     <script src="js/greeting.js"></script>
     <script src="js/todo.js"></script>
-    <script src="js/background.js"></script>
+    <script src="js/background_api.js"></script>
     <script src="js/weather.js"></script>
 </body>
 </html>
