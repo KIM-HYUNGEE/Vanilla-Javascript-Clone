@@ -1,0 +1,31 @@
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center .showing {
+    appearance: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2em;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+.center .showing::placeholder {
+    color: white;
+    opacity: 0.7;
+  }
+  
+  .center .showing:focus,
+  .center .showing:active {
+    outline: none;
+  }
+  
+  .center .showing {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
