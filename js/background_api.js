@@ -37,8 +37,8 @@ function getBackground() {
         .then(response => response.json())
         .then(json => {
             const image = json;
-            if (image.urls && image.urls.regular && image.location) {
-                const imageURL = image.urls.regular;
+            if (image.urls && image.urls.full && image.location) {
+                const imageURL = image.urls.full;
                 const location = image.location;
                 const name = location.name;
                 saveBackground(imageURL, name);
