@@ -1,0 +1,25 @@
+.author {
+    opacity: 0.5;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: white;
+}
+
+@keyframes authorFadeIn {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.author:hover {
+    animation: authorFadeIn 1s linear;
+    opacity: 1;
+}
