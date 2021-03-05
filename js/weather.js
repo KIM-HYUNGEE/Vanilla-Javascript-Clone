@@ -20,6 +20,7 @@ function getWeather(lat, lon) {
 function saveCoords(object) {
     localStorage.setItem(COORDS, JSON.stringify(object));
     // 37.824573140564134, 127.34745755477822
+    //{"latitude":37.824573140564134,"longitude":127.34745755477822}
 }
 
 function geoSuccessHandler(position) {
