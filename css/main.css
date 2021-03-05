@@ -65,3 +65,10 @@ ul {
     margin: 0;
     margin-top: 50px;
 }
+
+.form, .greeting {
+    display: none;
+}
+
+.showing {
+    display: block;

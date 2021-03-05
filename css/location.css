@@ -1,0 +1,14 @@
+.location {
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in;
+    font-style: italic;
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+
+.location:hover {
+    opacity: 1;
+}
