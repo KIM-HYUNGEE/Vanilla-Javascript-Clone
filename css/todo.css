@@ -1,0 +1,13 @@
+.list {
+    margin-bottom: 20px;
+}
+
+.toDo {
+    font-size: 22px;
+    color: white;
+}
+
+.del {
+    margin-left: 10px;
+    cursor: pointer;
+}

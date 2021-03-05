@@ -22,13 +22,15 @@ function deleteToDo(e) {
 }
 
 function paintToDo(text) {
-    const li = document.createElement("li");
-    const delBtn = document.createElement("button");
-    delBtn.innerHTML = "X";
+    let li = document.createElement("li");
+    let delBtn = document.createElement("button");
+    delBtn.innerHTML = "❌";
+    delBtn.className = "del";
     delBtn.addEventListener("click", deleteToDo);
     const span = document.createElement("span");
     const newId = toDos.length + 1;
     // li.setAttribute("id", newId);
+    li.className = "toDo";
     li.id = newId;
     span.innerHTML = text;
     li.appendChild(span);
