@@ -1,8 +1,23 @@
 .weather {
+    opacity: 0.5;
     position: absolute;
     font-style: italic;
     font-size: 12px;
     top: 25px;
     right: 25px;
     color: white;
+}
+
+@keyframes emphasize {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.weather:hover {
+    animation: emphasize 0.5s linear;
+    opacity: 1;
 }
